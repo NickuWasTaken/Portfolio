@@ -8,23 +8,27 @@ body{
 
 .container{
 	max-width: 100%;
+	overflow: hidden;
+	margin-bottom: 30px;
 }
 
 .sub-container{
 	font-family: rawline;
 	margin-left: 140px;
-	margin-top: 180px;
+	margin-top: 50px;
 	max-width: 800px;
 	margin-right: 150px;
 }
 
-.sub-container h1{
+.container h1{
 	font-size: 46px;
+	font-family: rawline;
 }
 
-.sub-container p{
+.container p{
+	font-family: rawline;
 	font-size: 22px;
-	margin-top: 110px;
+	margin-top: 80px;
 }
 
 .kontakt-btn{
@@ -40,6 +44,7 @@ body{
 
 .beam-container{
 	margin-left: 100px;
+	margin-right: 100px;
 }
 
 .imgbeam{
