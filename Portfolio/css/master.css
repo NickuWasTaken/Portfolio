@@ -9,7 +9,7 @@ body{
 .container{
 	max-width: 100%;
 	overflow: hidden;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 }
 
 .sub-container{
@@ -60,4 +60,18 @@ body{
 	background-color: #9CC78B;
 	display: block;
 	margin-top: 75px;
+}
+
+
+
+.project-wrapper-text{
+	max-width: 600px;
+	min-width: 500px;
+}
+
+.project-img{
+	margin-left: 75px;
+	max-width: 500px;
+	display: block;
+	max-height: 680px;
 }
