@@ -2,12 +2,13 @@
 	box-sizing: border-box;
 }
 
-body{
+body, html{
 	background-color: #F9F9F9;
+	scroll-behavior: smooth;
 }
 
 .container{
-	max-width: 100%;
+	width: 100%;
 	overflow: hidden;
 	margin-bottom: 50px;
 }
@@ -51,7 +52,7 @@ body{
 	margin-left: 25px;
 }
 
-.imgbeam > div{
+.imgbeam > a{
 	max-height: 250px;
 	max-width: 250xp;
 	border-radius: 150px;
@@ -60,7 +61,7 @@ body{
 	margin-top: 75px;
 }
 
-.imgbeam > div > img{
+.imgbeam > a > img{
 	height: 250px;
 	width: 250px;
 	border-radius: 150px;
@@ -68,12 +69,16 @@ body{
 	display: block;
 }
 
-.project-wrapper
-
 
 .project-wrapper-text{
 	max-width: 600px;
 	min-width: 500px;
+}
+
+.project-wrapper-text a{
+	font-family: rawline;
+	font-size: 22px;
+	margin-top: 20px;
 }
 
 .project-img{

@@ -18,38 +18,113 @@
 				Nicklas Christensen
 			</h1>
 			<p class="">
-				Hej, jeg er en multimediedesign studerende på UCL som planlægger at have fokus på web. <br><br> Klik på billederne til højre for at læse om projekte og min indflydelse. <br><br>
+				Hej, jeg er en multimediedesign studerende på UCL som planlægger at have fokus på web. <br><br> Klik på billederne til højre for at læse om projektet og min indflydelse derpå. <br><br>
 				Velkommen til min portfolio!
 			</p>
 			<dic class="center kontakt-btn">
-				<a href="" class="kontakt-btn">Kontakt.</a>
+				<a href="#kontakt" class="kontakt-btn">Kontakt.</a>
 			</dic>
 		</div>
 
 		<div class="beam-container flex">
 			<div class="imgbeam flex fdc">
-				<div><img src="img/circles/city-table.jpg" alt=""></div>
-				<div><img src="img/circles/portait.jpg" alt=""></div>
-				<div><img src="img/circles/redesign-bio.jpg" alt=""></div>
+				<a href="#project"><img src="img/circles/city-table.jpg" alt="" onclick="document.getElementById('project').innerHTML=document.getElementById('project-citytable').innerHTML;"></a>
+
+				<a href="#project"><img src="img/circles/portait.jpg" alt="" onclick="document.getElementById('project').innerHTML=document.getElementById('project-potrait').innerHTML;"></a>
+
+				<a href="#project"><img src="img/circles/redesign-bio.jpg" alt="" onclick="document.getElementById('project').innerHTML=document.getElementById('project-bio').innerHTML;"></a>
 			</div>
 
 			<div class="imgbeam flex fdc">
-				<div style="margin-top: -75px;"><img src="img/circles/kode.jpg" alt=""></div>
-				<div><img src="img/circles/royalrock.jpg" alt=""></div>
-				<div><img src="img/circles/crud.jpg" alt=""></div>
+				<a style="margin-top: -75px;" href="#project"><img src="img/circles/kode.jpg" alt="" onclick="document.getElementById('project').innerHTML=document.getElementById('project-film').innerHTML;"></a>
+
+				<a href="#project"><img src="img/circles/royalrock.jpg" alt="" onclick="document.getElementById('project').innerHTML=document.getElementById('project-royalrock').innerHTML;"></a>
+
+				<a href="#project"><img src="img/circles/crud.jpg" alt="" onclick="document.getElementById('project').innerHTML=document.getElementById('project-crud').innerHTML;"></a>
 			</div>
 		</div>
 	</div>
 
-	<div class="container flex jfcc aic full">
-		<div class="project-wrapper-text">
-			<h1>Redesign af Biografen1-2</h1>
-			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla iste eligendi maiores, fuga quisquam neque eaque architecto et consequatur. Excepturi, officiis? Hic neque tenetur delectus soluta nesciunt tempora deleniti ea! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, magnam vitae officiis et possimus autem accusantium ipsum impedit! Maxime eius quae adipisci ratione deserunt labore molestias, delectus, voluptatibus esse obcaecati.</p>
+	<div class="container flex jfsb aic full">
+		<div class="project-wrapper flex full aic jfcc" id="project">
+			<div class="project-wrapper-text">
+				<h1>Redesign af Biografen1-2</h1>
+				<p>
+					Dette projekt omhandlede et redesign af hjemmesiden Biografen1-2 der tilhører en biograf af samme navn i tønder. Projektet var en skoleopgave så i ville ikke finde at det er sådan her deres nuværende side ville se ud. <br> <br> Min indblandelse i opgaven lød blandt andet på wireframing, moodboarding og selve redesignet af landingpage samt kontaktsiden
+				</p> <br> <br>
+				<a href="http://www.biografen1-2.dk/index.html">Bigografen1-2's side</a><br><br><br>
+				<a href="https://xd.adobe.com/view/18d11e38-5271-4622-a13a-3b7615028d11-4d82/">Link til fuldt redesign</a>
+			</div>
+			<img src="img/biografen1-2.png" alt="" class="project-img">
 		</div>
-		<img src="img/biografen1-2.png" alt="" class="project-img">
+
+		<div class="project-wrapper flex full aic jfcc none" id="project-bio">
+			<div class="project-wrapper-text">
+				<h1>Redesign af Biografen1-2</h1>
+				<p>
+					Dette projekt omhandlede et redesign af hjemmesiden Biografen1-2 der tilhører en biograf af samme navn i tønder. Projektet var en skoleopgave så i ville ikke finde at det er sådan her deres nuværende side ville se ud. <br> <br> Min indblandelse i opgaven lød blandt andet på wireframing, moodboarding og selve redesignet af landingpage samt kontaktsiden
+				</p> <br> <br>
+				<a href="http://www.biografen1-2.dk/index.html">Bigografen1-2's side</a><br><br><br>
+				<a href="https://xd.adobe.com/view/18d11e38-5271-4622-a13a-3b7615028d11-4d82/">Link til fuldt redesign</a>
+			</div>
+			<img src="img/biografen1-2.png" alt="" class="project-img">
+		</div>
+
+		<div class="project-wrapper flex full aic jfcc none" id="project-citytable">
+			<div class="project-wrapper-text">
+				<h1>City Table</h1>
+				<p>
+					City Table er et installations projekt udtænkt til Økolariet i vejle. Projektet var en skoleopgave udarbejded i sammarbejde med en gruppe af 3 andre studerende, udelligeret af UCL. <br><br>
+
+					Min indblandelse i projektet tog funktion i form af prototyping, desk- og field-research, content creation og brugstest.
+				</p>
+				<br><br>
+				<a href="/fileshare/city-table.pdf">Rapport om Projektet findes her</a>
+			</div>
+			<img src="img/city-table.jpg" alt="" class="project-img">
+		</div>
+
+		<div class="project-wrapper flex full aic jfcc none" id="project-potrait">
+			<div class="project-wrapper-text">
+				<h1>Illustrator Selvportrait</h1>
+				<p>Denne opgave fremvises som bevis på at jeg kan bruge "Pen toolet" i illustator, samt gøre brug af vektor grafik.</p>
+			</div>
+			<img src="img/Selvportrait.png" alt="" class="project-img">
+		</div>
+
+		<div class="project-wrapper flex full aic jfcc none" id="project-film">
+			<div class="project-wrapper-text">
+				<h1>Produktvideo: Briller</h1>
+				<p>
+					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla iste eligendi maiores, fuga quisquam neque eaque architecto et consequatur. Excepturi, officiis? Hic neque tenetur delectus soluta nesciunt tempora deleniti ea! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, magnam vitae officiis et possimus autem accusantium ipsum impedit! Maxime eius quae adipisci ratione deserunt labore molestias, delectus, voluptatibus esse obcaecati.
+				</p>
+			</div>
+			<img src="img/Kode.png" alt="" class="project-img">
+		</div>
+
+		<div class="project-wrapper flex full aic jfcc none" id="project-royalrock">
+			<div class="project-wrapper-text">
+				<h1>Royal Rock Festival</h1>
+				<p>
+					Royal Rock Festival var et projekt uddelegeret af Syddansk Erhvervskole som skulle give eleverne indblik i hvordan man kunne bruge feeds og php på hjemmesider. <br><br>
+					Her erhvervede jeg mig erfaring med PHP løkker, arrays, databaser samt mysql fetches.
+				</p>
+			</div>
+			<img src="img/royalRockFestival.png" alt="" class="project-img">
+		</div>
+
+		<div class="project-wrapper flex full aic jfcc none" id="project-crud">
+			<div class="project-wrapper-text">
+				<h1>Create, Read, <br> Update, Delete</h1>
+				<p>
+					Som eksamens opgave stillet 
+				</p>
+			</div>
+			<img src="img/Crud til sommerhus udlejning.png" alt="" class="project-img">
+		</div>
 	</div>
 
-	<div class="container flex jfcc aic full">
+	<div class="container flex jfcc aic full" id="kontakt">
 		<div class="project-wrapper-text">
 			<h1>Kontakt</h1>
 			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla iste eligendi maiores, fuga quisquam neque eaque architecto et consequatur. Excepturi, officiis? Hic neque tenetur delectus soluta nesciunt tempora deleniti ea! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, magnam vitae officiis et possimus autem accusantium ipsum impedit! Maxime eius quae adipisci ratione deserunt labore molestias, delectus, voluptatibus esse obcaecati.</p>
