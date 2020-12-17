@@ -3,7 +3,7 @@
 }
 
 body{
-	background-color: #FDFDFD;
+	background-color: #F9F9F9;
 }
 
 .container{
@@ -28,7 +28,8 @@ body{
 .container p{
 	font-family: rawline;
 	font-size: 22px;
-	margin-top: 80px;
+	margin-top: 50px;
+	line-height: 28px;
 }
 
 .kontakt-btn{
@@ -43,7 +44,6 @@ body{
 }
 
 .beam-container{
-	margin-left: 100px;
 	margin-right: 100px;
 }
 
@@ -52,16 +52,23 @@ body{
 }
 
 .imgbeam > div{
-	min-height: 250px;
-	min-width: 250px;
-	max-height: 300px;
-	max-width: 300px;
+	max-height: 250px;
+	max-width: 250xp;
 	border-radius: 150px;
 	background-color: #9CC78B;
 	display: block;
 	margin-top: 75px;
 }
 
+.imgbeam > div > img{
+	height: 250px;
+	width: 250px;
+	border-radius: 150px;
+	background-color: #9CC78B;
+	display: block;
+}
+
+.project-wrapper
 
 
 .project-wrapper-text{
