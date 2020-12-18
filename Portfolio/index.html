@@ -10,7 +10,7 @@
 </head>
 
 <body class="">
-	<div class="container flex aic jfcc full">
+	<div class="container flex aic jfcc full" id="frontpage">
 
 		<div class="sub-container flex fdc">
 			<h1 class="">
@@ -46,8 +46,11 @@
 	</div>
 
 	<div class="container flex jfsb aic full">
+		<a href="#frontpage" class="close">x</a>
 		<div class="project-wrapper flex full aic jfcc" id="project">
 			<div class="project-wrapper-text">
+				<a href="#project" class="first-last" onclick="document.getElementById('project').innerHTML=document.getElementById('project-potrait').innerHTML;"> < </a>
+				<a href="#project" class="first-next" onclick="document.getElementById('project').innerHTML=document.getElementById('project-blog').innerHTML;"> > </a>
 				<h1>Redesign af Biografen1-2</h1>
 				<p>
 					Dette projekt omhandlede et redesign af hjemmesiden Biografen1-2 der tilhører en biograf af samme navn i tønder. Projektet var en skoleopgave så i ville ikke finde at det er sådan her deres nuværende side ville se ud. <br> <br> Min indblandelse i opgaven lød blandt andet på wireframing, moodboarding og selve redesignet af landingpage samt kontaktsiden
@@ -60,6 +63,10 @@
 
 		<div class="project-wrapper flex full aic jfcc none" id="project-bio">
 			<div class="project-wrapper-text">
+
+				<a href="#project" class="last" onclick="document.getElementById('project').innerHTML=document.getElementById('project-potrait').innerHTML;"> < </a>
+				<a href="#project" class="next" onclick="document.getElementById('project').innerHTML=document.getElementById('project-blog').innerHTML;"> > </a>
+
 				<h1>Redesign af Biografen1-2</h1>
 				<p>
 					Dette projekt omhandlede et redesign af hjemmesiden Biografen1-2 der tilhører en biograf af samme navn i tønder. Projektet var en skoleopgave så i ville ikke finde at det er sådan her deres nuværende side ville se ud. <br> <br> Min indblandelse i opgaven lød blandt andet på wireframing, moodboarding og selve redesignet af landingpage samt kontaktsiden
@@ -72,6 +79,8 @@
 
 		<div class="project-wrapper flex full aic jfcc none" id="project-citytable">
 			<div class="project-wrapper-text">
+				<a href="#project" class="last" onclick="document.getElementById('project').innerHTML=document.getElementById('project-blog').innerHTML;"> < </a>
+				<a href="#project" class="next" onclick="document.getElementById('project').innerHTML=document.getElementById('project-potrait').innerHTML;"> > </a>
 				<h1>City Table</h1>
 				<p>
 					City Table er et installations projekt udtænkt til Økolariet i vejle. Projektet var en skoleopgave udarbejded i sammarbejde med en gruppe af 3 andre studerende, udelligeret af UCL. <br><br>
@@ -86,14 +95,18 @@
 
 		<div class="project-wrapper flex full aic jfcc none" id="project-potrait">
 			<div class="project-wrapper-text">
+				<a href="#project" class="last" onclick="document.getElementById('project').innerHTML=document.getElementById('project-citytable').innerHTML;"> < </a>
+				<a href="#project" class="next" onclick="document.getElementById('project').innerHTML=document.getElementById('project-bio').innerHTML;"> > </a>
 				<h1>Illustrator Selvportrait</h1>
 				<p>Denne opgave fremvises som bevis på at jeg kan bruge "Pen toolet" i illustator, samt gøre brug af vektor grafik.</p>
 			</div>
 			<img src="img/Selvportrait.png" alt="" class="project-img">
 		</div>
 
-		<div class="project-wrapper flex full aic jfcc none" id="project-film">
+		<div class="project-wrapper flex full aic jfcc none" id="project-blog">
 			<div class="project-wrapper-text">
+				<a href="#project" class="last" onclick="document.getElementById('project').innerHTML=document.getElementById('project-bio').innerHTML;"> < </a>
+				<a href="#project" class="next" onclick="document.getElementById('project').innerHTML=document.getElementById('project-royalrock').innerHTML;"> > </a>
 				<h1>Blog</h1>
 				<p>
 					Som studerende på UCL er jeg påkrævet at fører en blog der beskriver min process på forløbet som multimediedesign studerende. Denne blog indeholder indslag om større og mindre projekter jeg har gennemført på studiet, nogle af de størrere er blevet fremvist på denne portfolio men mange mindre projekter vil kunne findes her.
@@ -106,6 +119,8 @@
 
 		<div class="project-wrapper flex full aic jfcc none" id="project-royalrock">
 			<div class="project-wrapper-text">
+				<a href="#project" class="last" onclick="document.getElementById('project').innerHTML=document.getElementById('project-blog').innerHTML;"> < </a>
+				<a href="#project" class="next" onclick="document.getElementById('project').innerHTML=document.getElementById('project-crud').innerHTML;"> > </a>
 				<h1>Royal Rock Festival</h1>
 				<p>
 					Royal Rock Festival var et projekt uddelegeret af Syddansk Erhvervskole som skulle give eleverne indblik i hvordan man kunne bruge feeds og php på hjemmesider. <br><br>
@@ -117,6 +132,8 @@
 
 		<div class="project-wrapper flex full aic jfcc none" id="project-crud">
 			<div class="project-wrapper-text">
+				<a href="#project" class="last" onclick="document.getElementById('project').innerHTML=document.getElementById('project-royalrock').innerHTML;"> < </a>
+				<a href="#project" class="next" onclick="document.getElementById('project').innerHTML=document.getElementById('project-citytable').innerHTML;"> > </a>
 				<h1>Create, Read, <br> Update, Delete</h1>
 				<p>
 					Som webintegrator fik jeg stillet en opgave der lød på at skabe en fuldt funktionel hjemmeside til udlejning af sommerhuse, med tilhørende database og CRUD-system. <br> <br> Denne opgave lærte jeg ekstremt meget af hovedsageligt PHP i form af effektivisering af fetches og løkker samt funktioner men også HTML'en og CSS'en. I form af at fremstille et skelet design som jeg kunne tage brug af i fremtidige projekter.
@@ -126,6 +143,8 @@
 		</div>
 	</div>
 
+
+	<a href="#frontpage" class="close-kontakt">x</a>
 	<div class="container flex jfcc aic full" id="kontakt">
 		<div class="project-wrapper-text">
 			<h1>Kontakt</h1>

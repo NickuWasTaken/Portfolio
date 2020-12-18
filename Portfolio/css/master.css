@@ -92,3 +92,43 @@ body, html{
 	display: block;
 	max-height: 680px;
 }
+
+.first-last{
+	position: absolute;
+	top: 145%;
+	left: 5%;
+}
+
+.first-next{
+	position: absolute;
+	top: 145%;
+	right: 5%;
+}
+
+.close{
+	position: absolute;
+	top: 115%;
+	right: 10%;
+	font-family: rawline;
+	font-size: 28px;
+}
+
+.close-kontakt{
+	position: absolute;
+	top: 115%;
+	right: 10%;
+	font-family: rawline;
+	font-size: 28px;
+}
+
+.next{
+	position: absolute;
+	top: 145%;
+	right: 5%;
+}
+
+.last{
+	position: absolute;
+	top: 145%;
+	left: 5%;
+}
